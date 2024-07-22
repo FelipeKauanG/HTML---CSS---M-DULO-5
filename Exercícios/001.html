@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox</title>
+    <style>
+        .container{
+            display: flex;
+            background-color: rgba(103, 103, 103, 0.439);
+            padding: 20px;
+            border-radius: 10px;
+            user-select: none;
+        }
+        body{
+            background-color: rgb(23, 20, 20);
+        }
+        .item{
+            flex: auto;
+            border-spacing: inherit;
+            text-align: center;
+            background-color: rgba(45, 45, 45, 0.468);
+            border-radius: 10px;
+            height: 100px;
+            vertical-align: middle;
+            line-height: 100px;
+            box-shadow: 5px 5px 1px rgba(0, 0, 0, 0.262);
+            margin-right: -10px;
+        }
+         .item:hover{
+            border: 1px solid rgba(255, 255, 255, 0.853);
+            transition: .05s ease-in-out;
+            scale: 1.25;
+        }
+        .red{
+            background-color: red;
+        }
+        .orange{
+            background-color: orange;
+        }
+        .yellow{
+            background-color: yellow;
+        }
+        .green{
+            background-color: greenyellow;
+        }
+        .cyan{
+            background-color: cyan;
+        }
+        .blue{
+            background-color: blue;
+            color: white;
+        }
+        .purple{
+            background-color: rgb(191, 0, 255);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item red">A</div>
+        <div class="item orange">B</div>
+        <div class="item yellow">C</div>
+        <div class="item green">D</div>
+        <div class="item cyan">E</div>
+        <div class="item blue">F</div>
+        <div class="item purple">G</div>
+        <div class="item red">H</div>
+        <div class="item orange">I</div>
+        <div class="item yellow">J</div>
+        <div class="item green">K</div>
+        <div class="item cyan">L</div>
+        <div class="item blue">M</div>
+        <div class="item purple">N</div>
+        <div class="item red">O</div>
+        <div class="item orange">P</div>
+        <div class="item green">Q</div>
+        <div class="item cyan">R</div>
+        <div class="item blue">S</div>
+        <div class="item purple">T</div>
+        <div class="item red">U</div>
+        <div class="item orange">V</div>
+        <div class="item yellow">W</div>
+        <div class="item green">X</div>
+        <div class="item cyan">Y</div>
+        <div class="item blue">Z</div>
+    </div>
+</body>
+</html>
